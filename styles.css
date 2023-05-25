@@ -17,6 +17,14 @@ button {
     padding: 15px;
 }
 
+.background {
+    position:absolute;
+    top:0;
+    left: 0;
+    width:100%;
+    height:100%;
+}
+
 .header-logo {
     display: flex;
     flex: auto;
@@ -34,8 +42,6 @@ button {
     width: 10%;
     display: flex;
     flex: auto;
-    border-style: solid;
-    border-color: red;
     justify-content: space-around;
     align-items: center;
 }
@@ -43,16 +49,12 @@ button {
 .hero-main-text {
     display: flex;
     flex: auto;
-    border-style: solid;
-    border-color: red;
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8
 }
 
 .hero-secondary-text {
-    border-style: solid;
-    border-color: red;
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -60,21 +62,29 @@ button {
 
 .header-container1 {
     display: flex;
+    flex:auto;
 }
 
 .header-container2 {
-    text-align: center;
+    /*text-align: center;*/
     display: flex;
     flex: auto;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.checking {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .header-container3 {
-    border-style: solid;
-    border-color: red;
     display: flex;
     flex: auto;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -82,11 +92,15 @@ button {
     background-color: white;
 }
 
-.header-and-footer {
+.header-and-footer-background {
     background-color: #1F2937;
+}
+
+.header-and-footer {
+    width: 80%;
+    margin: auto;
     flex: auto;
     border: 5px;
-    border-color: green;
 }
 
 .white-background .call-to-action {
@@ -114,6 +128,7 @@ button {
     justify-content: center;
     font-size: 36px;
     font-style: italic;
+    text-align: center;
     color: #1F2937;
 }
 
