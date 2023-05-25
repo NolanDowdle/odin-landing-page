@@ -96,8 +96,33 @@ button {
     border: 5px;
 }
 
-.white-background .call-to-action {
+.white-background-call {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    flex: auto;
+    border: 5px;
+}
+
+.white-background-call .call-to-action {
+    border-radius: 12px;
+    padding: 2%;
     background-color: #3882F6
+}
+
+#inner-call {
+    display: flex;
+    flex: auto;
+}
+
+.inner-call-2 {
+    color: white;
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .random-information {
@@ -162,3 +187,4 @@ button {
     font-style: bold;
     justify-content: flex-end;
 }
+
